@@ -1,4 +1,5 @@
 ActiveAdmin.register Athlete do
+  permit_params :first_name, :second_name
 
 
   # See permitted parameters documentation:
